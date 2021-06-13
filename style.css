@@ -1,0 +1,54 @@
+body{
+	font-family: lato;
+	background: url("images/dog.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+/*html{*/
+	/*height: 100%;*/
+/*}*/
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgb(0,0,0,0.2);
+}
+#content{
+	text-align:  center;
+	padding-top: 20%;
+	color: white;
+}
+.navbar{
+	background-color: #2c3e50;
+}
+#linee{
+	background-color: white;
+}
+.righty{
+	background-color: ;
+	float: right; 
+}
+.dropdown-menu{
+	background-color: #A9A9A9;
+}
+/* Flaired edges, by Tomas Theunissen */
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
